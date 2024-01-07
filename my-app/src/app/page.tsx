@@ -7,7 +7,7 @@ const page = () => {
 
   return (
     <>
-
+    <main>asd</main>
     </>
   )
 }
