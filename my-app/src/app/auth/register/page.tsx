@@ -4,6 +4,7 @@ import React from 'react'
 import { ErrorMessage, Field, Form, Formik } from "formik"
 import * as Yup from "yup"
 import SigninImage from "../../../../public/images/registr.jpg"
+import { DatePickerDemo } from '@/components/DatePickerDemo'
 
 
 const page = () => {
@@ -68,7 +69,8 @@ const page = () => {
                         </span>
                       </div>
                       <div className='md:w-1/2 w-full px-2 md:py-5 py-3'>
-                        <Field className=' w-full border rounded border-black p-3 outline-none h-12' name="dob" placeholder='Date of Birth' type="text" />
+                        <Field className='w-full border rounded border-black p-3 outline-none h-12' name="dob" placeholder='Date of Birth' type="text" />
+
                         <span className='error'>
 
                           <ErrorMessage name="dob" />
@@ -80,13 +82,13 @@ const page = () => {
                         <Field className='w-full border rounded border-black outline-none h-12 p-3 ' name="password" placeholder='Password' type="text" />
                         <span className='error'>
 
-                          <ErrorMessage  name="password" />
+                          <ErrorMessage name="password" />
                         </span>
                       </div>
                       <div className='md:w-1/2 w-full px-2 md:py-5 py-3'>
                         <Field className='w-full border rounded border-black outline-none h-12 p-3 ' name="confirmPassword" placeholder='Confirm Password' type="text" />
                         <span className='error'>
-                        <ErrorMessage  name="confirmPassword" />
+                          <ErrorMessage name="confirmPassword" />
                         </span>
                       </div>
                     </div>
