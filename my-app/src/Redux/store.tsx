@@ -1,9 +1,13 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import counterReducer from './Slices/CounterSlices';
+import RightSlideBarSlice from './Slices/RightSlideBarSlices';
+
 
 
 const rootReducer = combineReducers({
     counter: counterReducer,
+    rightsidebar: RightSlideBarSlice,
+
 
 });
 

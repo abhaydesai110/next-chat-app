@@ -81,18 +81,18 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #888;
+  background: #fff;
   border-radius: 4px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #000;
+  background: rgb(171, 171, 253);
   border-radius: 5px;
 }
 
