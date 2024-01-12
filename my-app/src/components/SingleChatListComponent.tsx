@@ -27,7 +27,7 @@ const SingleChatListComponent = () => {
                         </div>
                         <div className="w-[calc(100%-54px)]">
                             <div className="user-name flex justify-between items-center  ">
-                                <h4 className="whitespace-nowrap overflow-ellipsis overflow-hidden capitalize font-bold">
+                                <h4 className="whitespace-nowrap   overflow-ellipsis overflow-hidden capitalize font-bold">
                                     Sagar Kheni
                                 </h4>
                                 <div className="relative flex items-start ml-auto pr-1">
@@ -44,7 +44,7 @@ const SingleChatListComponent = () => {
                   <img src={ChatPin} height={15} width={15} />
                 </span>
               )} */}
-                                <span className="p-1 bg-blue-600 text-white rounded-full">
+                                <span className="p-1 bg-gulab text-white rounded-full">
                                     1
                                 </span>
                             </div>

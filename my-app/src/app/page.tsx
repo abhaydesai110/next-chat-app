@@ -21,7 +21,7 @@ const page = () => {
         <div className='w-full h-full flex items-center justify-center'>
           <aside className={`w-[360px] h-full  ${asideBar ? "translate-x-1" : ""} -translate-x-[100%] md:translate-x-[0%] transition-all duration-300 fixed inset-x-0  `}>
             <div className='w-full h-full  space-y-3  '>
-              <div className='h-1/6 p-4 bg-blue-200'>
+              <div className='h-1/6 p-4 bg-gradient-to-l bg-gradient-to-l from-rose-100 via-rose-100 to-rose-200'>
                 <div className="w-10 h-10 rounded-full bg-slate-200 flex overflow-hidden">
 
                   <img
@@ -42,7 +42,7 @@ const page = () => {
                   <Search className='absolute inset-0 translate-x-2 translate-y-2 ' />
                 </div>
               </div>
-              <div className='overflow-y-auto h-5/6 py-4'>
+              <div className='overflow-y-auto h-5/6 '>
                 <SingleChatListComponent />
                 <SingleChatListComponent />
                 <SingleChatListComponent />

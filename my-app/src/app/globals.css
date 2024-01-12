@@ -92,7 +92,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(171, 171, 253);
+  background: #ffe4e6;
   border-radius: 5px;
 }
 
